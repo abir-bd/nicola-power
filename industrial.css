@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+background-color: black;}
+.menu-bar{
+    background:black;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background: #333;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 16px;
+    margin-left: -15px;
+    border-radius: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+    overflow: visible;
+}
+.sub-menu-2{
+    display: none;
+}
+.sub-menu-1 ul li:hover .sub-menu-2
+{
+    display: block;
+    position: absolute;
+        background: black;
+    margin-top: -50px;
+    margin-left: 105px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.sub-menu-1 ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 10px;
+    overflow: visible;
+}.list tr{
+    transition: 0.5s;
+}
+.list tr:hover{
+    transform: scale(1.06);
+    background-color: red;
+    
+}
+
+.list{
+margin-left: 10%;
+    margin-top: 2%;
+}
+table{
+    position: static;
+    z-index: 3;
+    left: 50%;
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: ;
+    text-align: center;
+    color: aliceblue;
+}
+td{
+    padding: 12px; 
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: black;
+}
+.footer{
+    background: #111;
+    color: aliceblue;
+    height: 400px;
+    margin-top: 2%;
+    position: relative;
+}
+.footer .footer-bottom{
+    background: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding-top: 20px;
+}
+.footer .footer-content{
+    border: 1px solid black;
+    height: 350px;
+    display: flex;
+}
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+}
+.footer .footer-content h1, .footer .footer-content h2{
+    color: aliceblue;
+}
+.footer .footer-content .about h1 span{
+    color: red;
+}
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.4em;
+    margin-bottom: 6px;
+    padding-top:30px;
+}
+.footer .footer-content .about .socials a{
+    border: 1px solid gray;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    margin-right:5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 5px;
+    color: red;
+    opacity: 0.5;
+}
+.footer .footer-content .about .socials a:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    margin-left: 60px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer .footer-content .links ul a:hover{
+    transform: scale(1.1);
+    color: red;
+}
