@@ -6,8 +6,11 @@
 
 }
 body{
-background-size: cover;
-background-position: center;
+    
+    background-image: url(https://i.gifer.com/3v98.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 font-family: sans-serif;
     background-size: 100% 100%;
 }
