@@ -9,7 +9,7 @@ background-size: cover;
     background-repeat:no-repeat;
 background-position: center;
 font-family: sans-serif;
-    background-image: url(home.jpg);
+    background-image: url(https://i.gifer.com/ELs8.gif);
    
    
 }    
@@ -34,9 +34,9 @@ font-family: sans-serif;
     color: white;
 }
 .active, .menu-bar ul li:hover{
-    background: #333;
+    background: transparent;
     border-radius: 5px;
-    border: 1px solid red;
+    border: 1px solid white;
 }
 .sub-menu-1{
     display: none;
