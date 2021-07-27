@@ -14,9 +14,9 @@ body{
 font-family: sans-serif;
     background-size: 100% 100%;
 }
-::-webkit-scrollbar {
-    display: none;}
-
+::-webkit-scrollbar{
+    display: none;
+}
 .bg{
     height: 75vh;
     width: 100%;
