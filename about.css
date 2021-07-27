@@ -5,11 +5,12 @@
 
 }
 body{
-background-size: cover;
-    background-repeat:no-repeat;
-background-position: center;
-font-family: sans-serif;
-    background-image: url(https://i.gifer.com/ELs8.gif);
+background-image: url(https://i.gifer.com/ELs8.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    
    
    
 }    
