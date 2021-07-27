@@ -109,7 +109,8 @@ background-image: url(https://i.gifer.com/ELs8.gif);
     background: #111;
     color: aliceblue;
     height: 460px;
-    margin-top: 30%;
+    margin-top: 50%;
+    margin-bottom: 0;
     position:relative;
 }
 .footer .footer-bottom{
